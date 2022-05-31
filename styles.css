@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+  overflow: hidden; 
+  color: rgb(0, 0, 0);
+  align-content: center;
+  
+}
+#search-form {
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+}
+#search-form input {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+}
+#search-form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 3rem;
+  text-align: center;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color:#880E4F;
+}
+
+@media (max-width: 1200px) {
+  #search-form { width: 50%; }
+}
+@media (max-width: 768px) {
+  .container { padding: 30px 35px; }
+  #search-form { width: 100%; }
+  .info { font-size: 0.5rem; }
+}
+/*----------- BALL ----------- */
+.container {
+    display: flex;
+    width: 80%;
+    justify-content: center; 
+    align-items: center;
+ }
+ 
+ .ball {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball2 {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball3 {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball4 {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball5{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball6{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball7{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball8{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball9{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align: center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ .ball10{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-color: rgb(16, 151, 144);
+    color: rgb(153, 5, 116);
+    text-align:  center;
+    font-size: 300%;
+    height: 150px;
+    line-height: 120px;
+    width: 400px;
+    border-color: palevioletred ;
+    border-style: double;
+ }
+ 
